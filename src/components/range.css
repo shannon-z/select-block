@@ -1,0 +1,19 @@
+.container {
+  width: 700px;
+  padding: 20px 50px;
+  background-color: #ccc;
+  box-sizing: border-box;
+}
+
+.content {
+  display: grid;
+  grid: auto-flow 30px / repeat(20, 30px);
+}
+
+.block {
+  width: 20px;
+  height: 20px;
+  background-color: cadetblue;
+  border-radius: 2px;
+  cursor: pointer;
+}
